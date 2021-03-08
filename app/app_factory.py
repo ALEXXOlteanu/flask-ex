@@ -29,7 +29,7 @@ def create_app(config_filename):
 
     @app.route("/")
     def hello():
-        return "Hello World!: DEBUG: {} Environment: {}".format(app.debug, app.env)
+        return "Hello World 2 OA!: DEBUG: {} Environment: {}".format(app.debug, app.env)
 
     return app
 
